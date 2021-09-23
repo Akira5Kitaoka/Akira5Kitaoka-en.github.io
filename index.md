@@ -23,7 +23,7 @@ I am particularly interested in relationship between geometric inveriants of the
 
 ## Schedules
 
-1. Dec. 9-11, 2021, 2021年度多変数関数論冬セミナー(Japanese).
+1. Dec. 9-11, 2021, Winter Seminar on Several Complex Variables 2021.
 
 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020).
 
