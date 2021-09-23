@@ -11,5 +11,5 @@
 
 ### Others
 
-[1] 購買記録から行動予測, 数理科学実践研究レター, 2021-1, August 23, 2021.
+[1] 購買記録から行動予測(Japanese), 数理科学実践研究レター, 2021-1, August 23, 2021.
 [[article link](https://www.ms.u-tokyo.ac.jp/lmsr/pdf/2021-1.pdf)]
