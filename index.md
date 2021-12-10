@@ -23,8 +23,6 @@ I am particularly interested in relationship between geometric inveriants of the
 
 ## Schedules
 
-1. Dec. 9-11, 2021, [Winter Seminar on Several Complex Variables 2021](https://www.comp.tmu.ac.jp/hisamoto/SCVwinter2021.html).
-
 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020).
 
 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/).
