@@ -19,8 +19,9 @@ Mar. 31, 2021, Ph.D. in Mathematical Sciences, The University of Tokyo (Advisor:
 
 Oct. 1, 2016 - Mar. 1, 2021, to belong FMSP course student, The Leading Graduate Course for Frontiers of Mathematical Sciences and Physics.
 
-Apr. 1, 2021 - (now), Project Researcher, Graduate School of Mathematical Sciences, The University of Tokyo.
+Apr. 1, 2021 - Mar. 31, 2022, Project Researcher, Graduate School of Mathematical Sciences, The University of Tokyo.
 
+Apr. 1, 2022 - (now), a private company.
 
 ### Teaching
 
