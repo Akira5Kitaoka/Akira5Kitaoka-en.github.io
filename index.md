@@ -2,7 +2,7 @@
 
 日本語版は[こちら](https://akira5kitaoka.github.io/Akira5Kitaoka.github.io/).
 
-Affiliation: A private enterprise
+Affiliation: Reseacher, NEC Corporation
 
 (Old) Affiliation: Project Researcher, Graduate School of Mathematical Sciences, The University of Tokyo.
 
