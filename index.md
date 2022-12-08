@@ -17,9 +17,13 @@ ORCiD：[0000-0002-3867-759X](https://orcid.org/0000-0002-3867-759X)
 
 Google Scholar：[Akira Kitaoka](https://scholar.google.com/citations?hl=ja&user=Cho6jckAAAAJ)
 
-Reserch field (math): contact geometry, parabolic geometry, geometric analysis
+Twitter: [@akitaoka-en](https://twitter.com/akitaoka_en)
 
-I am particularly interested in relationship between geometric inveriants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geomery or parabolic geometry.
+Reserch field (computer science): machine learning, ???, ???
+
+(Old) Reserch field (math): contact geometry, parabolic geometry, geometric analysis
+
+I was particularly interested in relationship between geometric inveriants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geomery or parabolic geometry.
 
 
 
