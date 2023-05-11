@@ -13,7 +13,7 @@ E-mail：akira5kitaoka(^^)gmail.com
 
 kitaoka-akira7680(^^)g.ecc.u-tokyo.ac.jp was terminated by end of 2022 Mar. 31.
 
-Reserch field (computer science): mathematical optiimization, machine learning
+Reserch field (computer science): mathematical optimization, machine learning
 
 I am developing an algorithm to solve the inverse problem of multi-objective optimization.
 
