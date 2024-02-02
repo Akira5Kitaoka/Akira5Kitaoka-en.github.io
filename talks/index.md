@@ -3,7 +3,7 @@
 
 ### Confernences & Seminar & Poster
 
-[13] Akira Kitaoka, Riki Eto, Imitation of inverse optimization with suboptimality loss,  [IBIS2023](https://ibisml.org/ibis2023/), 1-086, Oct. 30, 2023.
+[13] Akira Kitaoka, Riki Eto, Imitation of inverse optimization with suboptimality loss (Japanese),  [IBIS2023](https://ibisml.org/ibis2023/), 1-086, Oct. 30, 2023.
 
 [12] Akira Kitaoka, Ray-Singer torsion and the Rumin Laplacian on lens spaces, [Geometric Structures and Differential Equations - Symmetry, Singularity, and Quantization - ](http://www.math.ritsumei.ac.jp/~dtarama/GSDE2022/index.html), online, Mar. 15, 2022.
 
