@@ -25,5 +25,7 @@ SIGMA 18 (2022), 091, 16 pages.
 
 ### Others
 
-[2] Akira Kitaoka, Behavior prediction with purchasing data, Suurikagaku Jissenkenkyu Letter 2021, LMSR 2021-1, August 23, 2021.
+[2] Akira Kitaoka, Behavior prediction with purchasing data (Japanese), Suurikagaku Jissenkenkyu Letter 2021, LMSR 2021-1, August 23, 2021.
+<!--
 [[article link](https://www.ms.u-tokyo.ac.jp/lmsr/pdf/2021-1.pdf)]
+-->
