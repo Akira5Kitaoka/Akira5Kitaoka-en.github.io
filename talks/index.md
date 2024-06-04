@@ -3,7 +3,9 @@
 
 ### Confernences & Seminar & Poster
 
-[13] Akira Kitaoka, Riki Eto, Imitation of inverse optimization with suboptimality loss (Japanese),  [IBIS2023](https://ibisml.org/ibis2023/), 1-086, Oct. 30, 2023.
+[14] Akira Kitaoka, Riki Eto, Equivalence of Suboptimality Loss and Prediction Loss in Inverse Problems of Mixed Integer Linear Programming (Japanese), [JSAI2024](https://confit.atlas.jp/guide/event/jsai2024/subject/1F3-GS-1-02/date?cryptoId=), Hamamatsu, May 28, 2024.
+
+[13] Akira Kitaoka, Riki Eto, Imitation of inverse optimization with suboptimality loss (Japanese),  [IBIS2023](https://ibisml.org/ibis2023/), 1-086, Kitakyusyu, Oct. 30, 2023.
 
 [12] Akira Kitaoka, Ray-Singer torsion and the Rumin Laplacian on lens spaces, [Geometric Structures and Differential Equations - Symmetry, Singularity, and Quantization - ](http://www.math.ritsumei.ac.jp/~dtarama/GSDE2022/index.html), online, Mar. 15, 2022. [Proceedings](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2268-10.pdf)
 
@@ -19,7 +21,7 @@
 
 [6] Akira Kitaoka, Analytic torsions associated with the Rumin complex on contact spheres, [HAYAMA Symposium on Complex Analysis in Several Variables XXI](https://sites.google.com/site/scvhayama/2019), Shonan Village Center, Jul. 14, 2019.
 
-[5] Akira Kitaoka, An analytic torsion associated with the Rumin complex on the CR spheres, [Winter Seminar on Several Complex Variables 2018](https://sites.google.com/site/scvwintersemi2018/), Osaka City University, Dec. 21 2018.
+[5] Akira Kitaoka, An analytic torsion associated with the Rumin complex on the CR spheres, [Winter Seminar on Several Complex Variables 2018](https://sites.google.com/site/scvwintersemi2018/), Osaka City University, Dec. 21, 2018.
 
 [4] Akira Kitaoka, The Rumin-Seshadri torsion function on the spheres, [HAYAMA Symposium on Complex Analysis in Several Variables XX & Pacific Rim Complex-Symplectic Geometry Conference](https://sites.google.com/site/scvhayama/2018), Shonan Village Center, Jul. 14, 2018.
 
