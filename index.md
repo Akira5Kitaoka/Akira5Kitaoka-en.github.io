@@ -2,7 +2,7 @@
 
 日本語版は[こちら](https://akira5kitaoka.github.io/Akira5Kitaoka.github.io/).
 
-<img src="images/20210810-2.png" width="20%">
+<img src="images/20210810-2.png" width="30%">
 
 Affiliation: Researcher, NEC Corporation
 
