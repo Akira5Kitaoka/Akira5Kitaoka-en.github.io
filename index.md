@@ -40,8 +40,6 @@ Qiita: [akira5kitaoka](https://qiita.com/akira5kitaoka)
 
 ## Schedules
 
-1. Equivalence of Suboptimality Loss and Prediction Loss in Inverse Problems of Mixed Integer Linear Programming, 2024 May 28, Hamamatsu, [JSAI2024](https://confit.atlas.jp/guide/event/jsai2024/subject/1F3-GS-1-02/date?cryptoId=). 
-
 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020).
 
 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/).
