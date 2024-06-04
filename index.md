@@ -2,6 +2,8 @@
 
 日本語版は[こちら](https://akira5kitaoka.github.io/Akira5Kitaoka.github.io/).
 
+<img src="images/20210810-2.png" width="20%">
+
 Affiliation: Researcher, NEC Corporation
 
 E-mail：akira5kitaoka(^^)gmail.com 
