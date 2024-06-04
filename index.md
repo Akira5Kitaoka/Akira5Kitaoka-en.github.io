@@ -4,22 +4,12 @@
 
 Affiliation: Researcher, NEC Corporation
 
-(Old) Affiliation: Project Researcher, Graduate School of Mathematical Sciences, The University of Tokyo.
-
-(Old) Address: 3-8-1 Komaba, Meguro, Tokyo.
-
 E-mail：akira5kitaoka(^^)gmail.com 
 (Please replace (^^) with "at-mark")
 
-kitaoka-akira7680(^^)g.ecc.u-tokyo.ac.jp was terminated by end of 2022 Mar. 31.
+Research field (computer science): inverse optimization, mathematical optimization, machine learning, mathematics
 
-Research field (computer science): mathematical optimization, machine learning
-
-I am developing an algorithm to solve the inverse problem of multi-objective optimization.
-
-(Old) Research field (math): contact geometry, parabolic geometry, geometric analysis
-
-I was particularly interested in the relationship between geometric invariants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geometry or parabolic geometry.
+We aim to predict the weights of the objective function of MILP such that the given data is the optimal solution.
 
 
 ## Link
@@ -43,3 +33,10 @@ Qiita: [akira5kitaoka](https://qiita.com/akira5kitaoka)
 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020).
 
 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/).
+
+
+## Other
+
+(Past) Research field (math): contact geometry, parabolic geometry, geometric analysis
+
+I was particularly interested in the relationship between geometric invariants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geometry or parabolic geometry.
