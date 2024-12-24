@@ -3,6 +3,8 @@
 
 ### Confernences & Seminar & Poster
 
+[15] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [IBIS2024](https://ibisml.org/ibis2024/posters/), 1-086, Ohmiya, Nov. 6, 2024.
+
 [14] Akira Kitaoka, Riki Eto, Equivalence of Suboptimality Loss and Prediction Loss in Inverse Problems of Mixed Integer Linear Programming (Japanese), [JSAI2024](https://confit.atlas.jp/guide/event/jsai2024/subject/1F3-GS-1-02/date?cryptoId=), Hamamatsu, May 28, 2024.
 
 [13] Akira Kitaoka, Riki Eto, Imitation of inverse optimization with suboptimality loss (Japanese),  [IBIS2023](https://ibisml.org/ibis2023/), 1-086, Kitakyusyu, Oct. 30, 2023.
