@@ -33,9 +33,11 @@ LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 
 ## Schedules
 
-1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020).
+There are no plans to present any performances at this time (while they are still available).
 
-1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/).
+<!-- 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020). -->
+
+<!-- 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/). -->
 
 
 ## Other
