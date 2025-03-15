@@ -3,6 +3,8 @@
 
 ### Confernences & Seminar & Poster
 
+[17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [第3回 MfIP連携探索ワークショップ](https://sites.google.com/view/mfip-matching250314/%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E8%AC%9B%E6%BC%94), 1, Musashino University, Mar. 14, 2025.
+
 [15] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [IBIS2024](https://ibisml.org/ibis2024/posters/), 1-086, Ohmiya, Nov. 6, 2024.
 
 [14] Akira Kitaoka, Riki Eto, Equivalence of Suboptimality Loss and Prediction Loss in Inverse Problems of Mixed Integer Linear Programming (Japanese), [JSAI2024](https://confit.atlas.jp/guide/event/jsai2024/subject/1F3-GS-1-02/date?cryptoId=), Hamamatsu, May 28, 2024.
@@ -34,4 +36,8 @@
 [1] Akira Kitaoka, Introduction on papers part 2(Poletsky Theory and its application)(Japanese), Potential Theoretical Aspects of Complex Analytic Geometry, University of Tokyo, Feb. 12, 2016.
 
 
-### 
+### Others
+
+[16] Akira Kitaoka, NEC from the viewpoint of mathematical science(Japanese), [Mathematical science career design seminar and information exchange meeting 2024](https://www.ms.u-tokyo.ac.jp/career/cds2024_program.html), Graduate School of Mathematical Science, the University of Tokyo, Dec. 3, 2024. (invited)
+
+
