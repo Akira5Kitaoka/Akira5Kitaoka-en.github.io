@@ -3,7 +3,7 @@
 
 ### Confernences & Seminar & Poster
 
-[17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [第3回 MfIP連携探索ワークショップ](https://sites.google.com/view/mfip-matching250314/%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E8%AC%9B%E6%BC%94), 1, Musashino University, Mar. 14, 2025.
+[17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [The 3rd MfIP Collaboration Exploration Workshop](https://sites.google.com/view/mfip-matching250314/%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E8%AC%9B%E6%BC%94), 1, Musashino University, Mar. 14, 2025.
 
 [15] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [IBIS2024](https://ibisml.org/ibis2024/posters/), 1-086, Ohmiya, Nov. 6, 2024.
 
