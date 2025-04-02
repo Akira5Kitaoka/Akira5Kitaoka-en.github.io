@@ -44,7 +44,7 @@ LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 <!-- 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/). -->
 
 
-## Other
+## Others
 
 (Past) Research field (math): contact geometry, parabolic geometry, geometric analysis
 
