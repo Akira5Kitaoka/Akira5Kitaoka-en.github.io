@@ -3,15 +3,15 @@
 
 ### Education
 
-Apr. 1, 2012, to entry B.S. into School of Science, Tokyo Instiutute of technology.
+Apr. 1, 2012, to entry B.S. into School of Science, Tokyo Institute of Technology.
 
-Mar. 31, 2016, to graduate B.S. in Mathematics, Tokyo Instiutute of technology.
+Mar. 31, 2016, to graduate B.S. in Mathematics, Tokyo Institute of Technology.
 
-Apr. 1, 2016, to enty M.S. in Mathematical Sciences, The University of Tokyo.
+Apr. 1, 2016, to enter M.S. in Mathematical Sciences, The University of Tokyo.
 
-Mar. 31. 2018, to complete M.S. in Mathematical Sciences, The University of Tokyo (Advisor: Professor Kengo Hirachi)
+Mar. 31, 2018, to complete M.S. in Mathematical Sciences, The University of Tokyo (Advisor: Professor Kengo Hirachi)
 
-Apr. 1, 2016, to enty Ph.D. in Mathematical Sciences, The University of Tokyo.
+Apr. 1, 2016, to enter Ph.D. in Mathematical Sciences, The University of Tokyo.
 
 Mar. 31, 2021, Ph.D. in Mathematical Sciences, The University of Tokyo (Advisor: Professor Kengo Hirachi).
 
