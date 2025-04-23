@@ -37,6 +37,12 @@ Qiita: [akira5kitaoka](https://qiita.com/akira5kitaoka)
 LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 
 
+## News
+
+I posted the following paper on arXiv (2025/April/23): 
+[8] Akira Kitaoka, Minimization of curve length through energy minimization using finite difference and numerical integration in real coordinate space, preprint.
+[[arXiv:2504.15566](https://arxiv.org/abs/2504.15566)]
+
 ## Schedules
 
 [19] Ryuta Matsuno, Akira Kitaoka, Keita Sakuma, Masakazu Hirokawa, Learning Nonlinear Regression Model from Two-Sample Averaged Data (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), \[2L4-GS-1-05\], May 28, 2025.
