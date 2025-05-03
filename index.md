@@ -1,21 +1,25 @@
-# Akira KITAOKA / 北岡 旦
+
 
 日本語版は[こちら](https://akira5kitaoka.github.io/Akira5Kitaoka.github.io/).
 
-<img src="images/20210810-2.png" width="30%">
 
-**Affiliation**: Researcher, NEC Corporation
+<div class="box">
+<div class="text">
+<b>Affiliation</b>: Researcher, NEC Corporation<br>
+<b>E-mail</b>:akira5kitaoka(^^)gmail.com 
+(Please replace (^^) with "at-mark")<br>
+<b>Research field 1 (computer science & mathematics)</b>: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry<br>
+I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.<br>
+<b>Research field 2 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
+We aim to predict the weights of the objective function of MILP such that the given data is the optimal solution.<br>
+</div>
+<div class="pict">
+<img src="images/20210810-2.png" width="100%" alt="Akira Kitaoka"><br>
+Akira KITAOKA<br>
+北岡 旦 
+</div>
+</div>
 
-**E-mail**：akira5kitaoka(^^)gmail.com 
-(Please replace (^^) with "at-mark")
-
-**Research field 1 (computer science & mathematics)**: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry
-
-I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.
-
-**Research field 2 (computer science)**: inverse optimization, mathematical optimization, machine learning, mathematics
-
-We aim to predict the weights of the objective function of MILP such that the given data is the optimal solution.
 
 
 ## Link
