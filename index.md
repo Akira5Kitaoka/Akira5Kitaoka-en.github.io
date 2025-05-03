@@ -22,7 +22,7 @@ We aim to predict the weights of the objective function of MILP such that the gi
 
 ORCiD：[0000-0002-3867-759X](https://orcid.org/0000-0002-3867-759X)
 
-reseachmap：[R000085159](https://researchmap.jp/akira5kitaoka)
+researchmap：[R000085159](https://researchmap.jp/akira5kitaoka)
 
 Google Scholar：[Akira Kitaoka](https://scholar.google.com/citations?hl=ja&user=Cho6jckAAAAJ)
 
