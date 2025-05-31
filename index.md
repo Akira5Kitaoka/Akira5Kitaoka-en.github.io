@@ -44,7 +44,7 @@ LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 
 ## News
 
-- I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented the followings:
+- I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented the followings  (May 30, 2025):
 
 [18] Akira Kitaoka, Yuzuru Okajima, Yoichi Sasaki, Rin Takano, Counterfactual Explanation Based on Paths via Curve Energy Minimization (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), \[1Win4-97\], May 27, 2025. \[[Errata & Comment](https://akira5kitaoka.github.io/papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)\]
 
