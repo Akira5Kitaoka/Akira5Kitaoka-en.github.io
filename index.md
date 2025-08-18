@@ -46,9 +46,9 @@ LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 
 - I will paticipate [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/). I will present the following (September 12, 2025):
 
-[16] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025..
+[16] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
 
-- I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented the followings (May 30, 2025):
+- I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented and wrote the followings (July 1, 2025):
 
 [11] Akira Kitaoka, Yuzuru Okajima, Yoichi Sasaki, Rin Takano, Counterfactual Explanation Based on Paths via Curve Energy Minimization (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), \[1Win4-97\], May 27, 2025. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win497/_article/-char/ja/)\] \[[Errata & Comment](https://akira5kitaoka.github.io/papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)\]
 
