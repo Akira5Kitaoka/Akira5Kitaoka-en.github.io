@@ -44,9 +44,9 @@ LinkedIn: [Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)
 
 ## News
 
-- I will paticipate [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/). I will present the following (September 12, 2025):
+- I will paticipate [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/). I presented the following (September 12, 2025):
 
-[16] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
+[17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
 
 - I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented and wrote the followings (July 1, 2025):
 
