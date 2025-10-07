@@ -39,6 +39,11 @@ Akira KITAOKA<br>
 
 ## News
 
+- I posted the following paper on arXiv (Octorber 6, 2025): 
+
+[13] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions, preprint.
+[[arXiv:2510.04455](https://arxiv.org/abs/2510.04455)]
+
 - I will paticipate [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/). I presented the following (September 12, 2025):
 
 [17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
@@ -54,10 +59,7 @@ Akira KITAOKA<br>
 [4] Akira Kitaoka, Harmonic forms and the Rumin complex on Sasakian manifolds, Osaka Journal of Mathematics, to appear.
 [[arXiv:2204.03446](https://arxiv.org/abs/2204.03446)]
 
-- I posted the following paper on arXiv (April 23, 2025): 
 
-[10] Akira Kitaoka, Minimization of curve length through energy minimization using finite difference and numerical integration in real coordinate space, preprint.
-[[arXiv:2504.15566](https://arxiv.org/abs/2504.15566)]
 
 
 <!-- There are no plans to present any performances at this time (while they are still available). -->
