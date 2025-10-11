@@ -8,7 +8,7 @@ I explain what Kitaoka has primarily researched (as of Octorber 11, 2025).
 - <a href="{{ '/research_interest/inverse_optimization' | relative_url }}">Detail (Japanese)</a>
 
 ## Counterfactual explanation, Algorithmic recourse
-- I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.
+- We research counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.
 - <a href="{{ '/research_interest/counterfactual_explanation' | relative_url }}">Detail (Japanese)</a>
 
 ## Learning of averaged data
