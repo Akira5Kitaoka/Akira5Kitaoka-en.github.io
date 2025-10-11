@@ -12,7 +12,7 @@
 <b>Research interest 1 (computer science & mathematics)</b>: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry<br>
 I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.<br>
 <b>Research interest 2 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
-We aim to predict the weights of the objective function of MILP such that the given data is the optimal solution.<br>
+We aim to learn objective functions and constraints of MILP such that the given data is the optimal solution.<br>
 </div>
 <div class="pict">
 <img src="images/20210810-2.png" width="100%" alt="Akira Kitaoka"><br>
@@ -64,9 +64,3 @@ Akira KITAOKA<br>
 
 <!-- 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/). -->
 
-
-# Others
-
-(Past) **Research field (math)**: contact geometry, parabolic geometry, geometric analysis
-
-I was particularly interested in the relationship between geometric invariants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geometry or parabolic geometry.
