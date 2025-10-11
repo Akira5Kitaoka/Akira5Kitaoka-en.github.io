@@ -16,8 +16,8 @@ I explain what Kitaoka has primarily researched (as of Octorber 11, 2025).
 - 平均化されたデータから機械学習する方法について研究しています．
 - <a href="{{ '/research_interest/averaged_data' | relative_url }}">Detail (Japanese)</a>
 
-## 最短測地線近似アルゴリズム
-- 有限差分法と数値積分を用いた実座標空間上の曲線のエネルギー最小化による長さ最小化の誤差評価の研究をしていました．
+## Algorithm of approximating minimal geodesics
+- I was conducting research on estimating errors in length minimization through energy minimization of curves in real coordinate space using finite difference methods and numerical integration.
 - <a href="{{ '/research_interest/geodesic' | relative_url }}">Detail (Japanese)</a>
     
 ## Invariants of Parabolic Geometry with BGG Complexes
