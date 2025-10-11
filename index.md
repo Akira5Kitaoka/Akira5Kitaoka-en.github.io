@@ -23,19 +23,6 @@ Akira KITAOKA<br>
 
 
 
-## Link
-
-||Link|
-|------|-------------------------|
-|<img src="images/ORCID-iD_icon_32x32.png" height="20pt" alt="ORCiD">|[0000-0002-3867-759X](https://orcid.org/0000-0002-3867-759X)|
-|<img title='researchmap' height=40pt alt='researchmap' src='https://researchmap.jp/outline/img/researchmap130.gif' />|[R000085159](https://researchmap.jp/akira5kitaoka)|
-|<img src="images/Google_Scholar_logo.svg" height="20pt" alt="SEMANTIC SCHOLAR">|[Akira Kitaoka](https://scholar.google.com/citations?hl=ja&user=Cho6jckAAAAJ)|
-|<img src="images/Semantic_scholar_logo.png" height="20pt" alt="SEMANTIC SCHOLAR">|[Akira Kitaoka](https://www.semanticscholar.org/author/Akira-Kitaoka/2078930525)|
-|<img src="images/logo-black.png" height="20pt" alt="X">|[@akitaoka-en](https://twitter.com/akitaoka_en)|
-|<img src="images/zenn-logo.png" height="20pt" alt="Zenn">|[akira5kitaoka](https://zenn.dev/akira5kitaoka)|
-|<img src="images/qiita_logo.png" height="20pt" alt="Qiita">|[akira5kitaoka](https://qiita.com/akira5kitaoka)|
-|<img src="images/LI-Logo.png" height="20pt" alt="LinkedIn">|[Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)|
-
 
 ## News
 
@@ -67,6 +54,21 @@ Akira KITAOKA<br>
 <!-- 1. Postponed, Princeton, [Princeton-Tokyo workshop on Geometric Analysis](https://sites.google.com/view/princeton-tokyo-ga-2020). -->
 
 <!-- 1. Postponed, Graduate School of Mathematics, Nagoya University, [Geometric seminar (Japanese)](https://sites.google.com/site/geometryseminarnagoya/). -->
+
+
+
+## Link
+
+||Link|
+|------|-------------------------|
+|<img src="images/ORCID-iD_icon_32x32.png" height="20pt" alt="ORCiD">|[0000-0002-3867-759X](https://orcid.org/0000-0002-3867-759X)|
+|<img title='researchmap' height=40pt alt='researchmap' src='https://researchmap.jp/outline/img/researchmap130.gif' />|[R000085159](https://researchmap.jp/akira5kitaoka)|
+|<img src="images/Google_Scholar_logo.svg" height="20pt" alt="SEMANTIC SCHOLAR">|[Akira Kitaoka](https://scholar.google.com/citations?hl=ja&user=Cho6jckAAAAJ)|
+|<img src="images/Semantic_scholar_logo.png" height="20pt" alt="SEMANTIC SCHOLAR">|[Akira Kitaoka](https://www.semanticscholar.org/author/Akira-Kitaoka/2078930525)|
+|<img src="images/logo-black.png" height="20pt" alt="X">|[@akitaoka-en](https://twitter.com/akitaoka_en)|
+|<img src="images/zenn-logo.png" height="20pt" alt="Zenn">|[akira5kitaoka](https://zenn.dev/akira5kitaoka)|
+|<img src="images/qiita_logo.png" height="20pt" alt="Qiita">|[akira5kitaoka](https://qiita.com/akira5kitaoka)|
+|<img src="images/LI-Logo.png" height="20pt" alt="LinkedIn">|[Akira Kitaoka](https://www.linkedin.com/in/akira-kitaoka-42a84425b/)|
 
 
 ## Others
