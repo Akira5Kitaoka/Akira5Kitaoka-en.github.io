@@ -12,8 +12,8 @@ I explain what Kitaoka has primarily researched (as of Octorber 11, 2025).
 - <a href="{{ '/research_interest/counterfactual_explanation' | relative_url }}">Detail (Japanese)</a>
 
 ## Learning of averaged data
-- データの平均化をはじめとするデータ集約技術は，データ要約，圧縮，アノテーションコスト削減，データ品質向上，プライバシー保護に有用です．
-- 平均化されたデータから機械学習する方法について研究しています．
+- Data aggregation techniques, including data averaging, are useful for data summarization, compression, reducing annotation costs, improving data quality, and protecting privacy.
+- We are researching methods for machine learning from averaged data.
 - <a href="{{ '/research_interest/averaged_data' | relative_url }}">Detail (Japanese)</a>
 
 ## Algorithm of approximating minimal geodesics
