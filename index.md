@@ -35,22 +35,26 @@ Akira KITAOKA<br>
 
 # News
 
-- I will paticipate [IBIS2025](https://ibisml.org/ibis2025/posters/) and present the following (as of Octorber 11, 2025):
+- (**Octorber 15, 2025**) The following paper is accepted in [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
+
+[19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), to be appeared.
+
+- (**Octorber 11, 2025**) I will paticipate [IBIS2025](https://ibisml.org/ibis2025/posters/) and present the following:
 
 [18] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [IBIS2025](https://ibisml.org/ibis2025/posters/), November 12, 2025.
 
-- I posted the following paper on arXiv (as of Octorber 6, 2025): 
+- (**Octorber 6, 2025**) I posted the following paper on arXiv: 
 
 [13] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions, preprint.
 [[arXiv:2510.04455](https://arxiv.org/abs/2510.04455)]
 
-- I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented and wrote the followings (as of July 1, 2025):
+- (**July 1, 2025**) I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented and wrote the followings:
 
 [11] Akira Kitaoka, Yuzuru Okajima, Yoichi Sasaki, Rin Takano, Counterfactual Explanation Based on Paths via Curve Energy Minimization (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), \[1Win4-97\], May 27, 2025. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win497/_article/-char/ja/)\] \[[Errata & Comment](https://akira5kitaoka.github.io/papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)\]
 
 [12] Ryuta Matsuno, Akira Kitaoka, Keita Sakuma, Masakazu Hirokawa, Learning Nonlinear Regression Model from Two-Sample Averaged Data (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), \[2L4-GS-1-05\], May 28, 2025. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2L4GS105/_article/-char/ja/)\]
 
-- The following paper is accepted (as of May 1, 2025):
+- (**May 1, 2025**) The following paper is accepted:
 
 [4] Akira Kitaoka, Harmonic forms and the Rumin complex on Sasakian manifolds, Osaka Journal of Mathematics, to appear.
 [[arXiv:2204.03446](https://arxiv.org/abs/2204.03446)]
