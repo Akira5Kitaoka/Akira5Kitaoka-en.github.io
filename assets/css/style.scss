@@ -9,14 +9,20 @@
     color:#22373A
 }
 
-.project-name a{
-    color: #444444;
+// メインコンテンツのテキスト色
+.main-content {
+  color: #22373A;
 }
-.project-name a:hover{
-    color: #000000;
+
+.main-content a{
+    color: #111B1D;
 }
-.project-name a:visited{
-    color: #444444;
+.main-content a:hover{
+    color: #22373A;
+    text-decoration: underline;
+}
+.main-content a:visited{
+    color: #111B1D;
 }
 
 
