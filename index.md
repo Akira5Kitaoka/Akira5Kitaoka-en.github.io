@@ -35,11 +35,11 @@ Akira KITAOKA<br>
 
 # News
 
-- (**Octorber 15, 2025**) The following paper is accepted in [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
+- (**November 13--16, 2025**) The following paper is accepted and presented in [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
 
-[19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), to be appeared.
+[19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), November 13--16, 2025, to be appeared. [[Video presentation](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
 
-- (**Octorber 11, 2025**) I will paticipate [IBIS2025](https://ibisml.org/ibis2025/posters/) and present the following:
+- (**Octorber 12, 2025**) I paticipated [IBIS2025](https://ibisml.org/ibis2025/posters/) and presented the following:
 
 [18] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [IBIS2025](https://ibisml.org/ibis2025/posters/), November 12, 2025.
 
