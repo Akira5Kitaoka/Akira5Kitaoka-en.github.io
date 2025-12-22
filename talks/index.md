@@ -2,6 +2,9 @@
 
 
 ### Confernences & Seminar & Poster
+
+[18] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [IBIS2025](https://ibisml.org/ibis2025/posters/), November 12, 2025.
+
 [17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
 
 [16] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP(Japanese), [The 3rd MfIP Collaboration Exploration Workshop](https://sites.google.com/view/mfip-matching250314/%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E8%AC%9B%E6%BC%94), 1, Musashino University, Mar. 14, 2025.
