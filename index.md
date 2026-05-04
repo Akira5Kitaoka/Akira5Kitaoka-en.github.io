@@ -39,6 +39,10 @@ Akira KITAOKA<br>
 
 [P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), 5H2-OS-18a, June 12, 2026.
 
+- (**May 3, 2026**) I have released the following tools on GitHub.
+
+[T1] A tool for converting TeX to Markdown（Japanese）[[GitHub](https://github.com/Akira5Kitaoka/TeX_to_markdown_with_shell_JP)] 
+
 - (**November 12, 2025**) The following paper is accepted and presented in [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
 
 [P19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), November 12, 2025. [[Paper](https://ieeexplore.ieee.org/document/11391798)] [[Video presentation](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
