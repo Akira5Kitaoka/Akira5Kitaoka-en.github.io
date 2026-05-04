@@ -9,10 +9,10 @@
 <b>Affiliation</b>: Researcher, NEC Corporation<br>
 <b>E-mail</b>:akira5kitaoka(^^)gmail.com 
 (Please replace (^^) with "at-mark")<br>
-<b>Research interest 1 (computer science & mathematics)</b>: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry<br>
-I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.<br>
-<b>Research interest 2 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
+<b>Research interest 1 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
 We aim to learn objective functions and constraints of MILP such that the given data is the optimal solution.<br>
+<b>Research interest 2 (computer science & mathematics)</b>: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry<br>
+I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.<br>
 </div>
 <div class="pict">
 <img src="images/20210810-2.png" width="100%" alt="Akira Kitaoka"><br>
