@@ -7,7 +7,7 @@
 <div class="box">
 <div class="text">
 <b>Affiliation</b>: Researcher, NEC Corporation<br>
-<b>E-mail</b>:akira5kitaoka(^^)gmail.com 
+<b>E-mail</b>: akira5kitaoka(^^)gmail.com 
 (Please replace (^^) with "at-mark")<br>
 <b>Research interest 1 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
 We aim to learn objective functions and constraints of MILP such that the given data is the optimal solution.<br>
@@ -41,34 +41,34 @@ Akira KITAOKA<br>
 
 # News
 
-- (**May 4, 2026**) I will participate in [JSAI2026](https://www.ai-gakkai.or.jp/jsai2026/) and present the following:
+- (**June 12, 2026**) I participated in [JSAI2026](https://www.ai-gakkai.or.jp/jsai2026/) and presented the following:
 
 [P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), 5H2-OS-18a, June 12, 2026.
 
-- (**May 3, 2026**) I have released the following tools on GitHub.
+- (**May 3, 2026**) I have released the following tool on GitHub.
 
-[T1] A tool for converting TeX to Markdown（Japanese）[[GitHub](https://github.com/Akira5Kitaoka/TeX_to_markdown_with_shell_JP)] 
+[T1] A tool for converting TeX to Markdown (Japanese) [[GitHub](https://github.com/Akira5Kitaoka/TeX_to_markdown_with_shell_JP)] 
 
-- (**November 12, 2025**) The following paper is accepted and presented in [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
+- (**November 12, 2025**) The following paper was accepted and presented at [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html):
 
 [P19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), November 12, 2025. [[Paper](https://ieeexplore.ieee.org/document/11391798)] [[Video presentation](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
 
-- (**November 12, 2025**) I paticipated [IBIS2025](https://ibisml.org/ibis2025/posters/) and presented the following:
+- (**November 12, 2025**) I participated in [IBIS2025](https://ibisml.org/ibis2025/posters/) and presented the following:
 
 [T18] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [IBIS2025](https://ibisml.org/ibis2025/posters/), November 12, 2025.
 
-- (**Octorber 6, 2025**) I posted the following paper on arXiv: 
+- (**October 6, 2025**) I posted the following paper on arXiv: 
 
 [P13] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions, preprint.
 [[arXiv:2510.04455](https://arxiv.org/abs/2510.04455)]
 
-- (**July 1, 2025**) I participated [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/). I presented and wrote the followings:
+- (**July 1, 2025**) I participated in [JSAI2025](https://www.ai-gakkai.or.jp/jsai2025/) and presented the following:
 
 [P11] Akira Kitaoka, Yuzuru Okajima, Yoichi Sasaki, Rin Takano, Counterfactual Explanation Based on Paths via Curve Energy Minimization (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), [1Win4-97], May 27, 2025. [[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win497/_article/-char/ja/)] [[Errata & Comment](https://akira5kitaoka.github.io/papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)]
 
 [P12] Ryuta Matsuno, Akira Kitaoka, Keita Sakuma, Masakazu Hirokawa, Learning Nonlinear Regression Model from Two-Sample Averaged Data (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), [2L4-GS-1-05], May 28, 2025. [[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2L4GS105/_article/-char/ja/)]
 
-- (**May 1, 2025**) The following paper is accepted:
+- (**May 1, 2025**) The following paper has been accepted:
 
 [P4] Akira Kitaoka, Harmonic forms and the Rumin complex on Sasakian manifolds, [Osaka Journal of Mathematics](http://www.math.sci.osaka-u.ac.jp/ojm/), to appear.
 [[arXiv:2204.03446](https://arxiv.org/abs/2204.03446)]

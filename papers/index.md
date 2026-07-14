@@ -1,6 +1,6 @@
 # Mathematical optimization, Machine Learning
 
-## preprint
+## Preprint
 
 [P13] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions, preprint.
 [[arXiv:2510.04455](https://arxiv.org/abs/2510.04455)]
@@ -18,7 +18,7 @@
 
 [P19] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), November 12, 2025. [[Paper](https://ieeexplore.ieee.org/document/11391798)] [[Video presentation](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
 
-## Non-refeered
+## Non-refereed
 
 [P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), \[5H2-OS-18a\], June 12, 2026.
 
@@ -31,7 +31,7 @@
 
 # Mathematics
 
-## preprint
+## Preprint
 
 [P10] Akira Kitaoka, Minimization of curve length through energy minimization using finite difference and numerical integration in real coordinate space, preprint.
 [[arXiv:2504.15566](https://arxiv.org/abs/2504.15566)]
@@ -50,7 +50,7 @@ Symmetry, Integrability and Geometry: Methods and Applications (SIGMA) 18 (2022)
 [[arXiv:1911.03092](https://arxiv.org/abs/1911.03092)]
 
 
-## Non refereed
+## Non-refereed
 
 [P7] Akira Kitaoka, Ray-Singer torsion and the Rumin Laplacian on lens spaces, [Geometric Structures and Differential Equations - Symmetry, Singularity, and Quantization - ](http://www.math.ritsumei.ac.jp/~dtarama/GSDE2022/index.html), online, Nov 2023. [Proceedings](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2268-10.pdf)
 

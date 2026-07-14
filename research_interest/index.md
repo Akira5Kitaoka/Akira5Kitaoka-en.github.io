@@ -1,6 +1,6 @@
 # Research Interest
 
-I explain what Kitaoka has primarily researched (as of Octorber 11, 2025).
+I explain what Kitaoka has primarily researched (as of October 11, 2025).
 
 ## Main theme
 
@@ -23,5 +23,5 @@ I explain what Kitaoka has primarily researched (as of Octorber 11, 2025).
     
 ### Invariants of Parabolic Geometry with BGG Complexes
 - I was particularly interested in the relationship between geometric invariants of the de Rham complex and the (curved) Bernstein-Gelfand-Gelfand complex on contact geometry or parabolic geometry.
-- <a href="{{ '/research_interest/bgg_complex' | relative_url }}">Datial (Japanese)>></a>
+- <a href="{{ '/research_interest/bgg_complex' | relative_url }}">Detail (Japanese)>></a>
 
