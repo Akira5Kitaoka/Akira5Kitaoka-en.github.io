@@ -2,17 +2,20 @@
 
 ## Preprint
 
+[P21] Akira Kitaoka, Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Integer Linear Programs, preprint.
+[[arXiv:2607.22263](https://arxiv.org/abs/2607.22263)]
+
 [P13] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning Constraints then Objective Functions, preprint.
 [[arXiv:2510.04455](https://arxiv.org/abs/2510.04455)]
 
-[P8] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP, preprint.
-[[arXiv:2405.14273 (cs)](https://arxiv.org/abs/2405.14273)]
+[P8] Akira Kitaoka, Exact Solution to Data-Driven Inverse Optimization of MILPs in Finite Time via Gradient-Based Methods, preprint.
+[[arXiv:2405.14273](https://arxiv.org/abs/2405.14273)]
 
 [P6] Akira Kitaoka, Riki Eto, A proof of imitation of Wasserstein inverse reinforcement learning for multi-objective optimization, preprint.
-[[arXiv:2305.10089 (cs)](https://arxiv.org/abs/2305.10089)]
+[[arXiv:2305.10089](https://arxiv.org/abs/2305.10089)]
 
 [P5] Akira Kitaoka, Riki Eto, A proof of convergence of inverse reinforcement learning for multi-objective optimization, preprint.
-[[arXiv:2305.06137 (cs)](https://arxiv.org/abs/2305.06137)]
+[[arXiv:2305.06137](https://arxiv.org/abs/2305.06137)]
 
 ## Peer reviewed
 
@@ -20,7 +23,7 @@
 
 ## Non-refereed
 
-[P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), \[5H2-OS-18a\], June 12, 2026.
+[P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), \[5H2-OS-18a\], June 12, 2026. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2026/0/JSAI2026_5H2OS18a02/_article/-char/ja/)\]
 
 [P12] Ryuta Matsuno, Akira Kitaoka, Keita Sakuma, Masakazu Hirokawa, Learning Nonlinear Regression Model from Two-Sample Averaged Data (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), \[2L4-GS-1-05\], May 28, 2025. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2L4GS105/_article/-char/ja/)\]
 

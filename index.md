@@ -41,9 +41,14 @@ Akira KITAOKA<br>
 
 # News
 
+- (**July 24, 2026**) I posted the following paper on arXiv: 
+
+[P21] Akira Kitaoka, Explicit Iteration Complexity of Exact Data-Driven Inverse Optimization for Integer Linear Programs, preprint.
+[[arXiv:2607.22263](https://arxiv.org/abs/2607.22263)]
+
 - (**June 12, 2026**) I participated in [JSAI2026](https://www.ai-gakkai.or.jp/jsai2026/) and presented the following:
 
-[P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), 5H2-OS-18a, June 12, 2026.
+[P20] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [JSAI2026](https://pub.confit.atlas.jp/ja/event/jsai2026/presentation/5H2-OS-18a-02), 5H2-OS-18a, June 12, 2026. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2026/0/JSAI2026_5H2OS18a02/_article/-char/ja/)\]
 
 - (**May 3, 2026**) I have released the following tool on GitHub.
 
