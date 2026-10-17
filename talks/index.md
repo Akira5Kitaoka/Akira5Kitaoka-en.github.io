@@ -3,6 +3,8 @@
 
 ### Conferences & Seminars & Posters
 
+[T19] Akira Kitaoka, Outperformance Inverse Optimization: Learning Objective Functions that Outperform Agent Decisions (Japanese), [IBIS2026](https://ibisml.org/ibis2026/posters/), 2-050, October 28, 2026.
+
 [T18] Akira Kitaoka, Inverse Mixed-Integer Programming: Learning of Constraints then Objective Functions (Japanese), [IBIS2025](https://ibisml.org/ibis2025/posters/), November 12, 2025.
 
 [T17] Akira Kitaoka, A fast algorithm to minimize prediction loss of the optimal solution in inverse optimization problem of MILP (Japanese), [The Operations Research Society of Japan 2025 Autumn Research Presentation & Symposium](https://orsj.org/2025f/), September 12, 2025.
