@@ -1,38 +1,38 @@
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
-# 最短測地線近似アルゴリズム
+# Algorithm of approximating minimal geodesics
 
-**キーワード**: 数値解析，測地線，数理最適化，最適制御
+**Keywords**: Numerical analysis, geodesics, mathematical optimization, optimal control
 
-**背景**: 最短の長さを実現する最短測地線を決定する問題は，コンピュータビジョン，ロボティクス，機械学習など，様々な分野で注目を集めている．(cf. [[P10](#K10)])
-
-
-## 有限差分法と数値積分を用いて長さ最小化を近似して解いたものが真の長さ最小化に漸近しない例[[P10](#K10), $\S 5$]
-
-**効果**: これは，汎関数最小化を実装するために，有限差分法と数値積分を用いて近似して解いても，真の汎関数最小化を実現できないことを意味する．
-
-##  有限差分法と数値積分を用いた実座標空間上の曲線のエネルギー最小化による長さ最小化の誤差評価[[P10](#K10)]
-
-**背景**: 最短測地線を実装する方法として，曲線のエネルギー最小化問題を，有限差分と数値積分で近似した非線形最適化問題の解を線形補間する方法が挙げられる．この方法は，他の方法に比べて，実装が容易な傾向にある．
+**Background**: The problem of determining minimal geodesics, which realize the shortest length, has attracted attention in various fields such as computer vision, robotics, and machine learning. (cf. [[P10](#K10)])
 
 
-**従来課題**: 実座標空間のRiemann計量において，有限差分と数値積分でエネルギー最小化を近似して解く方法が，曲線の長さを最小化できているのかは，知られていなかった．
+## An example where the solution of length minimization approximated by finite differences and numerical integration does not converge to the true length minimization [[P10](#K10), $\S 5$]
 
-**効果**: 曲線のエネルギーを有限差分と台形公式で近似した最適化問題の解を線形補間した曲線の長さが，最小の曲線の長さに，数値積分で用いた点群の個数の次数$1/2$で収束することを証明した．また，左点公式を使った場合でも同様に，近似して得た曲線の長さが，最小の曲線の長さに数値積分で用いた点群の個数の次数$1/2$で収束することを証明した．
+**Impact**: This means that even if we implement functional minimization by approximating it with finite differences and numerical integration, we cannot achieve the true functional minimization.
 
-**鍵となるアイデア**: アプリオリ評価，変分原理，Sobolev空間論
+##  Error estimates for length minimization through energy minimization of curves in real coordinate space using finite differences and numerical integration [[P10](#K10)]
 
-## 参考文献
+**Background**: One way to implement minimal geodesics is to linearly interpolate the solution of a nonlinear optimization problem obtained by approximating the energy minimization problem of curves with finite differences and numerical integration. This method tends to be easier to implement than other methods.
+
+
+**Previous issue**: For Riemannian metrics on real coordinate space, it was not known whether the method of approximately solving energy minimization with finite differences and numerical integration actually minimizes the length of curves.
+
+**Impact**: We proved that the length of the curve obtained by linearly interpolating the solution of the optimization problem, in which the energy of curves is approximated by finite differences and the trapezoidal rule, converges to the minimal length of curves with order $1/2$ in the number of points used in the numerical integration. We also proved that, when the left-point rule is used instead, the length of the approximate curve likewise converges to the minimal length of curves with order $1/2$ in the number of points used in the numerical integration.
+
+**Key ideas**: A priori estimates, variational principles, theory of Sobolev spaces
+
+## References
 
 [<a id="K10">P10</a>] Akira Kitaoka, Minimization of curve length through energy minimization using finite difference and numerical integration in real coordinate space, preprint.
 [[arXiv:2504.15566](https://arxiv.org/abs/2504.15566)]
 
 <!--
-<details><summary>裏話([P10]の論文ができるまで)</summary>
+<details><summary>Behind the scenes (how the paper [P10] came about)</summary>
 
-秘密
+Secret
 </details>
 <br>
 -->
 
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>

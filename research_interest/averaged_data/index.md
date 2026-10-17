@@ -1,25 +1,24 @@
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
-# 平均化データ学習
+# Learning from averaged data
 
-**背景**：データの平均化を始めとするデータ集約技術は，データ要約，圧縮，アノテーションコスト削減，データ品質向上，プライバシー保護に有用である[[Zhang+ 2020](#Zhang2020)]．特に，複数サンプルの平均化は，平均化前のオリジナルデータの完全な復元を困難にすることからプライバシー保護に効果的である．
+**Background**: Data aggregation techniques, including data averaging, are useful for data summarization, compression, reducing annotation costs, improving data quality, and protecting privacy [[Zhang+ 2020](#Zhang2020)]. In particular, averaging over multiple samples is effective for privacy protection because it makes it difficult to fully recover the original data before averaging.
 
-**課題**：複数サンプル間で平均化された入出力に対する機械学習手法
-として Ecological Regression が知られている [[Robinson 50](#Robinson1950), [Gelman+ 01](#Gelman2001)]．Ecological Regressionは，平均化されたデータに対する予測誤差を用いて，線形回帰モデルを学習する[[Bhowmik+ 16](#Bhomik2016)]．しかしながら，この訓練手法は非線形回帰モデルに対して不適当である．我々の知る限り，複数サンプル間で平均化された入出力データから一般的な非線形モデルを学習する手法は知られていない．
+**Issue**: Ecological Regression is known as a machine learning method for inputs and outputs averaged over multiple samples [[Robinson 50](#Robinson1950), [Gelman+ 01](#Gelman2001)]. Ecological Regression trains a linear regression model using the prediction error on the averaged data [[Bhowmik+ 16](#Bhomik2016)]. However, this training method is not suitable for nonlinear regression models. To the best of our knowledge, no method was known for learning general nonlinear models from input-output data averaged over multiple samples.
 
-**手法**: [[P19](#K19)]は，加法的等分散ガウスノイズと正規分布入力を仮定した上で平均化データに対する予測モデルの尤度を定式化し，Taylor 近似を用いて導出した近似尤度を最大化することで予測モデルを学習する．また，[[P19](#K19)]はこの近似尤度の効率的な数値計算方法を理論解析に基づいて導出する．
+**Method**: [[P19](#K19)] formulates the likelihood of a prediction model for averaged data under the assumptions of additive homoscedastic Gaussian noise and normally distributed inputs, and trains the prediction model by maximizing an approximate likelihood derived via Taylor approximation. Furthermore, [[P19](#K19)] derives an efficient numerical method for computing this approximate likelihood based on theoretical analysis.
 
-**効果**: [[P19](#K19)]は，平均化されたデータから非線形モデルを学習する最初の手法として，特に2サンプル平均化データを対象とした学習手法である．
+**Impact**: [[P19](#K19)] is the first method for learning nonlinear models from averaged data, specifically targeting two-sample averaged data.
 
-**注釈** [[P12](#K12)]は[[P19](#K19)]の日本語の解説記事である．
-
+**Remark** [[P12](#K12)] is a Japanese article explaining [[P19](#K19)].
 
 
-## 参考文献
 
-[<a id="K12">P12</a>] 松野 竜太，北岡 旦，佐久間 啓太，廣川 暢一，2サンプル平均化データに基づく非線形回帰モデルの学習 (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), 2L4-GS-1-05, 2025年5月28日.  \[[論文](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2L4GS105/_article/-char/ja/)\]
+## References
 
-[<a id="K19">P19</a>] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), 2025年11月12日. [[論文](https://ieeexplore.ieee.org/document/11391798)] [[講演動画](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
+[<a id="K12">P12</a>] Ryuta Matsuno, Akira Kitaoka, Keita Sakuma, Masakazu Hirokawa, Learning Nonlinear Regression Model from Two-Sample Averaged Data (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/2L4-GS-1-05/advanced), 2L4-GS-1-05, May 28, 2025.  \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2L4GS105/_article/-char/ja/)\]
+
+[<a id="K19">P19</a>] Ryuta Matsuno, Akira Kitaoka, Learning from Two-Sample Averaged Data, [ICDM 2025](https://www3.cs.stonybrook.edu/~icdm2025/index.html), November 12, 2025. [[Paper](https://ieeexplore.ieee.org/document/11391798)] [[Video presentation](https://video.computer.org/ICDM25/10ME7GxDtJrOktMO8JeVyl-DM531-Matsuno.mp4.html)]
 
 [<a id="Bhomik2016">Bhowmik+ 16</a>] Bhowmik, A., Ghosh, J., and Koyejo, O.: Sparse Parameter Recovery from Aggregated Data, in International Conference on Machine Learning (2016)
 
@@ -29,4 +28,4 @@
 
 [<a id="Zhang2020">Zhang+ 20</a>] Zhang, Y., Charoenphakdee, N., Wu, Z., and Sugiyama, M.: Learning from Aggregate Observations, in Advances in Neural Information Processing Systems, Vol. 33 (2020)
 
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>

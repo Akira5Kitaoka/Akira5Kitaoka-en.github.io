@@ -1,58 +1,57 @@
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
-更新日：2025年12月26日
+Last updated: December 26, 2025
 
-# 混合整数計画の逆最適化問題
+# Inverse optimization for mixed-integer programming
 
-**キーワード**: 逆最適化，数理最適化，組合せ最適化
+**Keywords**: Inverse optimization, mathematical optimization, combinatorial optimization
 
-**研究内容**：与えられたデータが最適解になるような，(混合整数)線形計画の目的関数の重みと制約条件の閾値を推定する高速なアルゴリズムを開発した．
+**Research summary**: We developed fast algorithms that estimate the weights of the objective function and the thresholds of the constraints of (mixed-integer) linear programs such that the given data are optimal solutions.
 
-**背景**: 最適化問題は，人間の意思決定から自然現象に至るまで，さまざまなプロセスやシステムの順方向モデルとして定義することが多い．しかし，そのようなモデルにおける真の目的関数や制約条件が，事前にはほとんど分かっていないのが実情である．したがって，観測された最適解から目的関数や制約条件を推定する，すなわち**逆最適化**の問題は，実践的に非常に重要である．逆最適化は，地球物理学，交通，電力システム，スケジューリング，医療への応用があり，また，逆強化学習，コントラスト学習などをはじめとするさまざまな機械学習の基礎としても発展している．(cf. [[Sakaue et al. 2025](#sakaue2025online), [P13](#K13)])
+**Background**: Optimization problems are often defined as forward models of various processes and systems, ranging from human decision-making to natural phenomena. In practice, however, the true objective functions and constraints of such models are rarely known in advance. Therefore, the problem of estimating objective functions and constraints from observed optimal solutions, that is, **inverse optimization**, is of great practical importance. Inverse optimization has applications in geophysics, transportation, power systems, scheduling, and healthcare, and has also developed as a foundation for various machine learning methods, including inverse reinforcement learning and contrastive learning. (cf. [[Sakaue et al. 2025](#sakaue2025online), [P13](#K13)])
 <!-- 
-この分野における初期の研究は地球物理学から登場し、地震波データから地下構造を推定することを目的としていた \citep{Tarantola1988-tq,Burton1992-dc}。  
-その後、逆最適化は広く研究されるようになり \citep{Ahuja2001-cv,Heuberger2004-zv,Chan2019-zg,Chan2023-qk}、交通 \citep{Bertsimas2015-kw}、電力システム \citep{Birge2017-il}、医療 \citep{Chan2022-uq} などのさまざまな分野に応用されてきた。  
-さらに、逆強化学習 \citep{Ng2000-sf} やコントラスト学習 \citep{Shi2023-nd} をはじめとするさまざまな機械学習手法の基礎としても発展している。
+Early research in this field emerged from geophysics, aiming to estimate subsurface structures from seismic wave data \citep{Tarantola1988-tq,Burton1992-dc}.  
+Since then, inverse optimization has been widely studied \citep{Ahuja2001-cv,Heuberger2004-zv,Chan2019-zg,Chan2023-qk} and applied to various fields such as transportation \citep{Bertsimas2015-kw}, power systems \citep{Birge2017-il}, and healthcare \citep{Chan2022-uq}.  
+Furthermore, it has developed as a foundation for various machine learning methods, including inverse reinforcement learning \citep{Ng2000-sf} and contrastive learning \citep{Shi2023-nd}.
 -->
 
-そこで，北岡がかかわった研究は以下である．(独立に読めます．)
-- [1](#S1). 混合整数線形計画における目的関数の重みを高速に解くアルゴリズムを提案したこと [[P5](#K5), [P8](#K8)]
+The research Kitaoka has been involved in is as follows. (Each part can be read independently.)
+- [1](#S1). Proposing fast algorithms for the weights of the objective function in mixed-integer linear programming [[P5](#K5), [P8](#K8)]
 
-- [2](#S2). 混合整数線形計画における目的関数の重みと制約条件の閾値を高速に解くアルゴリズムを提案したこと [[P13](#K13)]
+- [2](#S2). Proposing fast algorithms for the weights of the objective function and the thresholds of the constraints in mixed-integer linear programming [[P13](#K13)]
 
-## <a id="S1">1</a>. 混合整数線形計画における目的関数の重みを高速に解くアルゴリズムを提案したこと[[P5](#K5), [P8](#K8)]
+## <a id="S1">1</a>. Proposing fast algorithms for the weights of the objective function in mixed-integer linear programming [[P5](#K5), [P8](#K8)]
 
-### [[P8](#K8)]の概要
+### Overview of [[P8](#K8)]
 
-||詳細|
+||Details|
 |---|---|
-|背景|混合整数線形計画において，観測データから目的関数を学習するデータ駆動型逆最適化は，電力システムやスケジューリングなど様々な分野で適切な数理モデルを構築する上で，重要な役割を果たしている．|
-|課題|既存手法だと，計算効率が悪い．特に次元が大きくなるにつれて，計算効率が大幅に悪くなる．$k$を学習回数としたとき，効率が良いとされている既存手法でも，重みに関する誤差が$O(k^{-1/(d-1)})$．|
-|提案手法|Suboptimality損失に関する，ステップ幅$k^{-1/2}$の射影劣勾配法を提案|
-|理論結果1|効率的に学習できる．特に，ある$\gamma >0$が存在し，真の重みとの誤差が，$O\left(k^{1/(\gamma+1)} \exp\left(-\frac{\gamma}{\gamma+2}k^{1/2}\right)\right)$で抑えられることを示す．|
-|理論結果2|有限回の反復で，観測データを復元できることを示す．|
-|実験結果|実験面では，提案手法が既知手法の$1/7$未満のMILP呼び出し回数でMILPの逆最適化問題を解き，有限回の反復で収束することを実証する．|
+|Background|In mixed-integer linear programming, data-driven inverse optimization, which learns objective functions from observed data, plays an important role in building appropriate mathematical models in various fields such as power systems and scheduling.|
+|Issue|Existing methods are computationally inefficient. In particular, the computational efficiency deteriorates significantly as the dimension grows. With $k$ the number of learning iterations, even an existing method regarded as efficient has an error of $O(k^{-1/(d-1)})$ in the weights.|
+|Proposed method|We propose the projected subgradient method with step size $k^{-1/2}$ for the suboptimality loss.|
+|Theoretical result 1|Learning is efficient. In particular, we show that there exists $\gamma >0$ such that the error from the true weights is bounded by $O\left(k^{1/(\gamma+1)} \exp\left(-\frac{\gamma}{\gamma+2}k^{1/2}\right)\right)$.|
+|Theoretical result 2|We show that the observed data can be recovered in a finite number of iterations.|
+|Experimental results|Experimentally, we demonstrate that the proposed method solves inverse optimization problems of MILPs with fewer than $1/7$ of the MILP calls of known methods, and converges in a finite number of iterations.|
 
-### (準備) 問題設定
-順問題の目的関数が区分線形関数の線形和で書けている，混合整数線形計画を含む，基本的かつ重要な問題を取り上げる．
-$i = 1 , \ldots ,d $に対し，
-$h_i \colon \mathbb{R}^{\bullet} \to \mathbb{R}$は区分線形であるとする．
-集合$\mathcal{S}$を
+### (Preliminaries) Problem setting
+We consider a basic and important class of problems, including mixed-integer linear programs, in which the objective function of the forward problem is written as a linear combination of piecewise linear functions.
+For $i = 1 , \ldots ,d $,
+let $h_i \colon \mathbb{R}^{\bullet} \to \mathbb{R}$ be piecewise linear.
+Let the set $\mathcal{S}$ be
 
 $$
     \mathcal{S} = \{ s = (A,b) \in  \mathbb{R}^{\bullet \times \bullet} \times \mathbb{R}^{\bullet} \}
 $$
 
-とし，$s \in \mathcal{S}$に対して集合
+and for $s \in \mathcal{S}$, let
 
 $$
     X(s) := \{ x \in \mathbb{R}^{\bullet} \times \mathbb{Z}^{\bullet} | Ax \leq b\} 
 $$
 
-とする．
-確率単体$$\Delta^{d-1} := \{ \phi \in \mathbb{R}_{\geq 0 }^d | \sum_i \phi_i =1 \} $$
-とする．
-順問題を以下で定義する．
+be a set.
+Let the probability simplex be $$\Delta^{d-1} := \{ \phi \in \mathbb{R}_{\geq 0 }^d | \sum_i \phi_i =1 \} $$.
+We define the forward problem as follows.
 
 $$
 \begin{equation*}
@@ -70,17 +69,16 @@ $$
 \end{equation*}
 $$
 
-順問題の逆最適化問題を定義する．
-データ$\mathcal{D} = \\{ (s^{(n)} , a^{(n)} ) \\}_{n=1}^N$は未知の真の重み$\phi^* $が存在し，
+We define the inverse optimization problem of the forward problem.
+Assume that for the data $\mathcal{D} = \\{ (s^{(n)} , a^{(n)} ) \\}_{n=1}^N$ there exist unknown true weights $\phi^* $ satisfying
 
 $$
    s^{(n)} \in \mathcal{S} , 
-   \quad a^{(n)} = a ( \phi^* , s^{(n)} )
+   \quad a^{(n)} = a ( \phi^* , s^{(n)} ).
    %\label{assu:data-follows-solver}  
 $$
 
-を満たすとする．
-この未知の重み$\phi^* $をデータ$\mathcal{D}$から推定する問題，つまり，解の予測誤差
+We consider the problem of estimating these unknown weights $\phi^* $ from the data $\mathcal{D}$, that is, the problem of minimizing the prediction loss of the solution
 
 $$
 \begin{equation*}%\label{eq:def_minimization_PLS} 
@@ -88,55 +86,52 @@ $$
 \end{equation*}
 $$
 
-を最小化する問題を考える．
+### (Preliminaries) Forward and inverse problems seen through scheduling
 
-### (準備) スケジューリング問題から見る順問題と逆問題
+Taking scheduling as an example, we explain the challenges in formulating the forward problem and what inverse optimization solves as a way to address these challenges.
 
-スケジューリングを例に，順問題を定式化するための課題と，その課題を解く方法として，逆最適化問題によって，何を解決しているのかを解説する．
+Formulating scheduling as mathematical programming means modeling the objective function and the constraints. However, the question arises of how to design the objective function.
 
-スケジューリングを数理計画で定式化することは，目的関数と制約条件をモデリングすることである．しかし，目的関数をどう設計するか，という問題が生じる．
+(1) When deciding the objective function, it is rare to have only one candidate; in practice there are several. For example, candidates for the objective function in scheduling include
+- the degree to which requested days off are reflected,
+- the degree of workload leveling,
+- labor costs,
 
-(1) 目的関数を決定する際に，目的関数の候補が一つだけというのは稀で，実際は複数の候補がある．たとえば，スケジューリングにおける目的関数の候補の例として，
-- 休暇希望の反映度合い，
-- 業務負荷の平準化度，
-- 人件費
+and so on [[P5](#K5)]. Thus, one way to decide the objective function is to add up multiple candidate objective functions with ratios $\theta \in \Theta$.
 
-などが挙げられる[[P5](#K5)]．そこで，目的関数を決定する方法として，複数の目的関数の候補を割合$\theta \in \Theta$を決めて足し合わせることが考えられる．
+Now, through scheduling, we explain how inverse optimization helps design the objective function. Solving the inverse optimization problem in scheduling using scheduling data $\{ (s^{(n)}, a^{(n)}) \}$ means, given a mathematical model $\mathrm{FOP}$, determining the ratios $\theta \in \Theta$ of the objective function that reproduce the data $\{ (s^{(n)}, a^{(n)}) \}$. Concretely, inverse optimization determines the ratios $\theta \in \Theta$ for the candidate objective functions listed in (1) such that the data $\{ (s^{(n)}, a^{(n)}) \}$ are reproduced.
 
-さて，逆最適化によって，目的関数の設計に役立つことをスケジューリングを通して解説する．スケジューリングのデータ$\{ (s^{(n)}, a^{(n)}) \}$を用いて，スケジューリングにおける逆最適化問題を解くとは，数理モデル$\mathrm{FOP}$があたえられたとき，データ$\{ (s^{(n)}, a^{(n)}) \}$を復元するような，目的関数の割合$\theta \in \Theta$を決定することを意味する．具体例を通して解説すると，逆最適化は，データ$\{ (s^{(n)}, a^{(n)}) \}$を再現するような，(1)で出た目的関数の候補の例に関して割合$\theta \in \Theta$を決定することである．
-
-### 課題
-既存の手法では解の予測誤差を最小化するのに効率が悪く，特に高次元の場合，次元の影響を受ける．素朴な方法として，
-確率単体$\Delta^{d-1}$
-から均一に点を取る方法(UPA)やランダムに点を取る方法(RPA)が挙げられる．UPAとRPAは次元$d$の影響を大きく受ける．
+### Issue
+Existing methods are inefficient at minimizing the prediction loss of the solution and, especially in high dimensions, suffer from the effect of dimension. Naive methods include taking points uniformly from
+the probability simplex $\Delta^{d-1}$
+(UPA) and taking points randomly (RPA). UPA and RPA are strongly affected by the dimension $d$.
 
 
-| 手法 | $\left\|\left\| \phi_k - \phi^* \right\|\right\| $ ※解の予測誤差が$0$でない場合 |
+| Method | $\left\|\left\| \phi_k - \phi^* \right\|\right\| $ *when the prediction loss of the solution is not $0$ |
 |------|-------------------------|
 | UPA | $O(k^{-1/(d-1)})$ |
 | RPA | $O_{\mathbb{P}}\left(\left( \frac{\log k}{k} \right)^{1/(d-1)}\right)$ |
-| PSGD2 (提案手法) [[P8](#K8)] | $O\left(k^{1/(\gamma+1)} \exp\left(-\frac{\gamma}{\gamma+2}k^{1/2}\right)\right)$ |
+| PSGD2 (proposed) [[P8](#K8)] | $O\left(k^{1/(\gamma+1)} \exp\left(-\frac{\gamma}{\gamma+2}k^{1/2}\right)\right)$ |
 
-### 効果  
+### Impact  
 
-提案手法[[P5](#K5), [P8](#K8)]であるPSGD2は，推定困難な正定数$\gamma$が存在するものの，既存手法RPA, UPAに比べて，解の予測誤差の最小値を高速に達成できる．
+The proposed method PSGD2 [[P5](#K5), [P8](#K8)] attains the minimum of the prediction loss of the solution faster than the existing methods RPA and UPA, although it involves a positive constant $\gamma$ that is hard to estimate.
 
-また，PSGD2は，ほとんど至る真の重み$\phi^*$で，有限回の反復で，解の予測誤差を$0$にすることができる．
+Moreover, for almost every true weight $\phi^*$, PSGD2 can make the prediction loss of the solution $0$ in a finite number of iterations.
 
-### 提案手法  
+### Proposed method  
 
-与えられた解を模倣するために，
-suboptimality損失
+We explain that, to imitate the given solutions,
+it suffices to minimize the suboptimality loss
 
 $$
 \begin{equation*}
-    \ell_{\mathrm{sub}} (\phi) := \frac{1}{N} \sum_{n=1}^N \left( \phi^{ \intercal} a(\phi , s^{(n)} ) - \phi^{ \intercal} a^{(n)} \right) 
+    \ell_{\mathrm{sub}} (\phi) := \frac{1}{N} \sum_{n=1}^N \left( \phi^{ \intercal} a(\phi , s^{(n)} ) - \phi^{ \intercal} a^{(n)} \right).
 \end{equation*}
 $$
 
-を最小化すればよいことを説明する．
-Suboptimality損失は区分線形(Lipschitz)で凸であり,
-劣勾配が
+The suboptimality loss is piecewise linear (Lipschitz) and convex, and
+has the subgradient
 
 $$
 \begin{equation*}
@@ -146,24 +141,23 @@ $$
         a ( \phi , s^{(n)} )
         -
         a^{(n)}
-    \right)    
+    \right).
 \end{equation*} 
 $$
 
-という性質を持つ．
-劣勾配$g$は解の予測誤差に現れるノルムの中身の平均を取ったものである．解の予測誤差が最小値である$0$になることと劣勾配$g$が$0$になることは同値である[補題 5.11, [P8](#K8)]．
-劣勾配$g$が$0$を達成することと，suboptimality損失が最小値を達成することは同値だとする．
-このとき，解の予測誤差が最小値$0$を達成することと，suboptimality損失が最小値を達成することは同値だとしてよい．
+The subgradient $g$ is the average of the terms inside the norm appearing in the prediction loss of the solution. The prediction loss of the solution attains its minimum $0$ if and only if the subgradient $g$ is $0$ [Lemma 5.11, [P8](#K8)].
+Assume that the subgradient $g$ attains $0$ if and only if the suboptimality loss attains its minimum.
+Then we may regard the prediction loss of the solution attaining its minimum $0$ as equivalent to the suboptimality loss attaining its minimum.
 
-Suboptimality損失は，凸でLipschitzで，劣勾配が$g$で与えられている．従って，Suboptimality損失を$\Delta^{d-1}$の上で最小化するためには，$\Delta^{d-1}$における射影劣勾配法をsuboptimality損失に適用すれば良い．学習率$$\left\{ \alpha_k \right\}_{k} \subset \mathbb{R}_ {>0}$$としたときの，射影劣勾配法をsuboptimality損失に適用したものを[アルゴリズム1](#alg:1)で与える．
+The suboptimality loss is convex and Lipschitz, and its subgradient is given by $g$. Hence, to minimize the suboptimality loss over $\Delta^{d-1}$, it suffices to apply the projected subgradient method on $\Delta^{d-1}$ to the suboptimality loss. [Algorithm 1](#alg:1) gives the projected subgradient method applied to the suboptimality loss with learning rates $$\left\{ \alpha_k \right\}_{k} \subset \mathbb{R}_ {>0}$$.
 
-[アルゴリズム1](#alg:1)に
-学習率を$
+In [Algorithm 1](#alg:1),
+we call the method with learning rate $
    \alpha_k =
-    \ell_{\mathrm{sub}} (\phi_k ) / \|\| g (\phi_k ) \|\|^2  ,
+    \ell_{\mathrm{sub}} (\phi_k ) / \|\| g (\phi_k ) \|\|^2  
 $
-としたものをPSGDP,
-学習率を
+PSGDP,
+and the method with learning rate
 $
     \alpha_k = k^{-1/2}
     /
@@ -171,65 +165,65 @@ $
          g (\phi_k)
         \right\|\right\|
 $
-としたものをPSGD2とする．
+PSGD2.
 
 
 <div class="algorithm-box" markdown="0">
-<div class="algorithm-caption"><b><a id="alg:1">アルゴリズム 1</a></b> suboptimality損失最小化 [アルゴリズム1, <a href="#K5">P5</a>]</div>
+<div class="algorithm-caption"><b><a id="alg:1">Algorithm 1</a></b> Suboptimality loss minimization [Algorithm 1, <a href="#K5">P5</a>]</div>
 <ol class="algorithmic">
-<li>$\phi_1 = \left(\frac{1}{d}, \ldots, \frac{1}{d}\right) \in \Delta^{d-1}$ で初期化</li>
+<li>Initialize $\phi_1 = \left(\frac{1}{d}, \ldots, \frac{1}{d}\right) \in \Delta^{d-1}$</li>
 <li><b>for</b> $k = 1, \ldots, K-1$ <b>do</b></li>
-<li class="indent-1">$\phi_{k+1} \leftarrow \phi_k - \alpha_k g(\phi_k)$ を計算</li>
-<li class="indent-1">$\phi_{k+1}$ を $\Delta^{d-1}$ へ射影する</li>
+<li class="indent-1">Compute $\phi_{k+1} \leftarrow \phi_k - \alpha_k g(\phi_k)$</li>
+<li class="indent-1">Project $\phi_{k+1}$ onto $\Delta^{d-1}$</li>
 <li><b>end for</b></li>
 <li><b>return</b> $\phi^{\mathrm{best}}_K \in \mathrm{argmin}_{\phi \in \left\{\phi_k \right\}^K_{k=1}} \ell_{\mathrm{sub}}(\phi)$</li>
 </ol>
 </div>
 
-## <a id="S2">2</a>. 混合整数線形計画における目的関数の重みと制約条件の閾値を高速に解くアルゴリズムを提案したこと [[P13](#K13)]
+## <a id="S2">2</a>. Proposing fast algorithms for the weights of the objective function and the thresholds of the constraints in mixed-integer linear programming [[P13](#K13)]
 
-### [[P13](#K13)]の概要
+### Overview of [[P13](#K13)]
 
-||詳細|
+||Details|
 |---|---|
-|背景|混合整数線形計画において，観測データから目的関数や制約条件を学習するデータ駆動型逆最適化は，電力システムやスケジューリングなど様々な分野で適切な数理モデルを構築する上で，重要な役割を果たしている．|
-|課題|先行研究においてその両方を学習する方法は報告されていない．|
-|提案手法|目的関数が関数の線形和，制約条件が関数と閾値で表される問題のクラスに対して，まず制約条件を学習し，そして目的関数を学習する二段階アプローチを提案する．|
-|理論結果1|理論面では，有限データにおいて提案手法によって逆最適化問題を解けることの理論保証|
-|理論結果2|擬距離空間と劣Gaussにおける統計的学習理論の展開|
-|理論結果3|逆最適化の統計的学習理論の構築を行う．| 
-|実験結果|実験面では，決定変数が$100$ 個の整数線形計画であるスケジューリングにおいても学習できることを実証する．|
+|Background|In mixed-integer linear programming, data-driven inverse optimization, which learns objective functions and constraints from observed data, plays an important role in building appropriate mathematical models in various fields such as power systems and scheduling.|
+|Issue|No method for learning both has been reported in previous studies.|
+|Proposed method|For a class of problems in which the objective function is a linear combination of functions and the constraints are expressed by functions and thresholds, we propose a two-stage approach that first learns the constraints and then learns the objective function.|
+|Theoretical result 1|Theoretically, a guarantee that the proposed method solves the inverse optimization problem with finite data|
+|Theoretical result 2|Development of statistical learning theory on pseudometric spaces and with sub-Gaussianity|
+|Theoretical result 3|We build a statistical learning theory for inverse optimization.| 
+|Experimental results|Experimentally, we demonstrate that learning is possible even for scheduling formulated as an integer linear program with $100$ decision variables.|
 
-このうち，逆最適化問題の定式化と，提案手法，理論結果1に関して解説する．
+Among these, we explain the formulation of the inverse optimization problem, the proposed method, and Theoretical result 1.
 
-### (準備) 逆最適化
-順問題の目的関数が区分線形関数の線形和で書けている，混合整数線形計画を含む，基本的かつ重要な問題を取り上げる．
+### (Preliminaries) Inverse optimization
+We consider a basic and important class of problems, including mixed-integer linear programs, in which the objective function of the forward problem is written as a linear combination of piecewise linear functions.
 
-- **状態空間** $\mathcal{S}$: 空でない集合
+- **State space** $\mathcal{S}$: a nonempty set
 
-- **決定変数の集合** $\mathcal{X}$: 空でない $\mathbb{R}^{k}$ の部分集合
+- **Set of decision variables** $\mathcal{X}$: a nonempty subset of $\mathbb{R}^{k}$
 
-- **目的関数のパラメータ集合** $\Theta$: 空でない $\mathbb{R}^{d}$ の部分集合
+- **Parameter set of the objective function** $\Theta$: a nonempty subset of $\mathbb{R}^{d}$
 
-- **確率単体**  
+- **Probability simplex**  
   $$\Delta^{d-1} := \left\{ \theta = (\theta_i)_i \in \mathbb{R}_{\geq 0}^d \,\middle|\, \sum_i \theta_i = 1 \right\}$$
 
-- **(特徴量)関数** $f_i \colon \mathcal{X} \times \mathcal{S} \to \mathbb{R}$ ($i = 1, \ldots, d$): 区分線形関数
+- **(Feature) functions** $f_i \colon \mathcal{X} \times \mathcal{S} \to \mathbb{R}$ ($i = 1, \ldots, d$): piecewise linear functions
 
-- **制約条件のラベルの数** $J$: 整数
+- **Number of constraint labels** $J$: an integer
 
-- **制約条件の閾値集合** $\Phi$: 空でない $\mathbb{R}^J$ の部分集合
+- **Set of constraint thresholds** $\Phi$: a nonempty subset of $\mathbb{R}^J$
 
-- **制約条件の関数** $h_j \colon \mathcal{X} \times \mathcal{S} \to \mathbb{R}$ ($j = 1, \ldots, J$)
+- **Constraint functions** $h_j \colon \mathcal{X} \times \mathcal{S} \to \mathbb{R}$ ($j = 1, \ldots, J$)
 
-- **制約条件の写像**  
+- **Constraint map**  
   $$h := (h_1, \ldots, h_J)$$
 
-- **実行可能集合** $\mathcal{X}(\phi, s)$ (制約条件の閾値 $\phi \in \Phi$, 状態 $s \in \mathcal{S}$ に対して): 
+- **Feasible set** $\mathcal{X}(\phi, s)$ (for constraint thresholds $\phi \in \Phi$ and state $s \in \mathcal{S}$): 
   $$\mathcal{X}(\phi, s) := \left\{ x \in \mathcal{X} \,\middle|\, h(x, s) \leq \phi \right\}$$
 
-$\theta \in \Theta $, $\phi \in \Phi$, $s \in \mathcal{S}$に対し，
-順問題を
+For $\theta \in \Theta $, $\phi \in \Phi$, $s \in \mathcal{S}$,
+the forward problem is to find $x^*$ such that
 
 $$
 \begin{equation}
@@ -238,14 +232,14 @@ $$
     \mathbf{FOP} (\theta, \phi, s)
     :=
     \mathrm{arg max}_{x \in \mathcal{X} (\phi , s)} 
-        \theta^{\top} f (x,s)
+        \theta^{\top} f (x,s).
     \tag{2.1}
 %    \label{eq:FOP_linear}
 \end{equation}
 $$
 
-となる$x^*$を求めることである．最適解のデータ$\hat{x } \colon \mathcal{S} \to \mathcal{X}$が与えられたとき，データ駆動型逆最適化問題(data driven inverse optimization problem, DDIOP)を，以下を満たす$\theta \in \Theta$，$\phi \in \Phi$を求めることである：
-任意の状態$s \in \mathcal{S} $に対し，
+Given data of optimal solutions $\hat{x } \colon \mathcal{S} \to \mathcal{X}$, the data-driven inverse optimization problem (DDIOP) is to find $\theta \in \Theta$ and $\phi \in \Phi$ satisfying the following:
+for any state $s \in \mathcal{S} $,
 
 $$
 \begin{equation}
@@ -256,7 +250,7 @@ $$
 \end{equation}
 $$
 
-順問題と逆最適化問題の違い,
+Regarding the difference between the forward problem and the inverse optimization problem,
 - $$\mathcal{X}(\phi, s) := \left\{ x \in \mathcal{X} \,\middle|\, h(x, s) \leq \phi \right\}$$
 - $\mathbf{FOP} (\theta, \phi, s)
     :=
@@ -264,52 +258,52 @@ $$
         \theta^{\top} f (x,s)$
 - $$\hat{x} (s) \in \mathbf{FOP} (\theta, \phi , s)$$
 
-に関して，以下の表を得る．
+we obtain the following table.
 
-|順問題(最適化)||逆問題(逆最適化問題)|
+|Forward problem (optimization)||Inverse problem (inverse optimization)|
 |---|---|---|
-|$\theta, \phi,s,f,h$|既知|$\hat{x} (s),s,f,h$|
-|最適解$\hat{x} (s)$|未知|目的関数の割合$\theta$，制約条件の閾値$\phi$|
+|$\theta, \phi,s,f,h$|Known|$\hat{x} (s),s,f,h$|
+|Optimal solution $\hat{x} (s)$|Unknown|Ratios of the objective function $\theta$, thresholds of the constraints $\phi$|
 
 
-### (準備) スケジューリング問題から見る順問題と逆問題
+### (Preliminaries) Forward and inverse problems seen through scheduling
 
-スケジューリングを例に，順問題を定式化するための課題と，その課題を解く方法として，逆最適化問題によって，何を解決しているのかを解説する．
+Taking scheduling as an example, we explain the challenges in formulating the forward problem and what inverse optimization solves as a way to address these challenges.
 
-スケジューリングを数理計画で定式化することは，目的関数と制約条件をモデリングすることである．しかし，(1) 目的関数をどう設計するか，(2) 制約条件をどう設計するか，という問題が生じる．
+Formulating scheduling as mathematical programming means modeling the objective function and the constraints. However, the questions arise of (1) how to design the objective function and (2) how to design the constraints.
 
-(1) 目的関数を決定する際に，目的関数の候補が一つだけというのは稀で，実際は複数の候補がある．たとえば，スケジューリングにおける目的関数の候補の例として，
-- 休暇希望の反映度合い，
-- 業務負荷の平準化度，
-- 人件費
+(1) When deciding the objective function, it is rare to have only one candidate; in practice there are several. For example, candidates for the objective function in scheduling include
+- the degree to which requested days off are reflected,
+- the degree of workload leveling,
+- labor costs,
 
-などが挙げられる[[P5](#K5)]．そこで，目的関数を決定する方法として，複数の目的関数の候補を割合$\theta \in \Theta$を決めて足し合わせることが考えられる．
-
-
-(2) 制約条件を決定する際に，制約条件の適切な閾値は何か，もしくは，真に必要な制約条件は何かを考える必要がある．これらの課題を解決する方法として，制約テンプレートを用いる方法がある[[Suenaga et al. 2024](#suenaga2024kaigoshi)]．制約テンプレートの例として，
-- 連続勤務日数の数，割合$\phi_1$，
-- 夜勤入りと夜勤明けを連続する$\phi_2$日数以下で週に割り当てる
-- 特定の勤務パターン(夜勤->休->夜勤)を禁止しているか？しているなら，$\phi_3 = 0$, していないなら$\phi_3 = 1$,
-- 各シフト$\tau$に対して，必要な最低人数$\phi_{4,\tau}$，最高人数$\phi_{5,\tau}$
-
-などが挙げられる．制約条件の閾値$\phi \in \Phi$を決定することで，制約条件を決定することができる．
-
-ちなみに，制約条件においては，法律や物理的制約などが理由で，閾値を決める必要がないものがある．たとえば，
-- 労働基準法
-- 一日24時間
-- マルチタスク不可
-
-などである．
-
-さて，逆最適化によって，目的関数と制約条件の設計に役立つことをスケジューリングを通して解説する．スケジューリングのデータ$\hat{x} \colon \mathcal{S} \to \mathcal{X}$を用いて，スケジューリングにおける逆最適化問題を解くとは，数理モデル$\mathrm{FOP}$があたえられたとき，データ$\hat{x}$を復元するような，目的関数の割合$\theta \in \Theta$, 制約条件の閾値$\phi \in \Phi$を決定することを意味する．具体例を通して解説すると，逆最適化は，データ$\hat{x}$を再現するような，(1)で出た目的関数の候補の例に関して割合$\theta \in \Theta$や，(2)で出た制約テンプレートの閾値$\phi \in \Phi$を決定することである．
+and so on [[P5](#K5)]. Thus, one way to decide the objective function is to add up multiple candidate objective functions with ratios $\theta \in \Theta$.
 
 
+(2) When deciding the constraints, we need to consider what the appropriate thresholds of the constraints are, or which constraints are truly necessary. One way to address these issues is to use constraint templates [[Suenaga et al. 2024](#suenaga2024kaigoshi)]. Examples of constraint templates include
+- the number of consecutive working days, with ratio $\phi_1$,
+- assigning the start and end of night shifts consecutively within at most $\phi_2$ days per week,
+- whether a specific work pattern (night shift -> day off -> night shift) is prohibited: $\phi_3 = 0$ if it is prohibited, $\phi_3 = 1$ if not,
+- for each shift $\tau$, the minimum required number of staff $\phi_{4,\tau}$ and the maximum number of staff $\phi_{5,\tau}$,
 
-### (準備) 逆最適化の指標
+and so on. By determining the constraint thresholds $\phi \in \Phi$, we can determine the constraints.
 
-逆最適化問題(式(2.2))が解けたことを判定する指標，suboptimality損失関数を導入する．ReLU関数を$u \in \mathbb{R}$に対して$$\mathrm{ReLU} (u) := \max (u , 0)$$とする．
-定数$\lambda \in \mathbb{R}_{\geq 0 }$とする．
-Suboptimality損失$$\ell^{\mathrm{sub}, \lambda} \colon \mathcal{X} \times \Theta \times \Phi \times \mathcal{S} \to \mathbb{R}_{\geq 0 } $$ ([[Ren et al. 2025](#ren2025inverse), [P13](#K13)])を
+Incidentally, some constraints do not require thresholds to be determined because of laws, physical constraints, and so on. For example,
+- the Labor Standards Act,
+- 24 hours in a day,
+- no multitasking,
+
+and so on.
+
+Now, through scheduling, we explain how inverse optimization helps design the objective function and the constraints. Solving the inverse optimization problem in scheduling using scheduling data $\hat{x} \colon \mathcal{S} \to \mathcal{X}$ means, given a mathematical model $\mathrm{FOP}$, determining the ratios $\theta \in \Theta$ of the objective function and the thresholds $\phi \in \Phi$ of the constraints that reproduce the data $\hat{x}$. Concretely, inverse optimization determines the ratios $\theta \in \Theta$ for the candidate objective functions listed in (1) and the thresholds $\phi \in \Phi$ of the constraint templates listed in (2) such that the data $\hat{x}$ are reproduced.
+
+
+
+### (Preliminaries) A metric for inverse optimization
+
+We introduce the suboptimality loss function, a metric for judging whether the inverse optimization problem (Eq. (2.2)) has been solved. For $u \in \mathbb{R}$, let the ReLU function be $$\mathrm{ReLU} (u) := \max (u , 0)$$.
+Let $\lambda \in \mathbb{R}_{\geq 0 }$ be a constant.
+We define the suboptimality loss $$\ell^{\mathrm{sub}, \lambda} \colon \mathcal{X} \times \Theta \times \Phi \times \mathcal{S} \to \mathbb{R}_{\geq 0 } $$ ([[Ren et al. 2025](#ren2025inverse), [P13](#K13)]) by
 
 $$
 \begin{equation*}
@@ -325,48 +319,46 @@ $$
         & \quad \quad + \lambda \sum_{j=1}^J
             \mathrm{ReLU} \left( 
                 h_j ( x , s) - \phi_j
-            \right)
+            \right).
     \end{split}
 \end{equation*}
 $$
 
-で定義する．
-
-Suboptimality損失は以下の性質を持つ：
+The suboptimality loss has the following property:
 
 <div class="theorem-box" markdown="1">
-**命題 2.1**
-定数$\lambda > 0 $とする．$x \in \mathcal{X}$とする，このとき，$x \in \mathrm{FOP}( \theta , \phi , s)$であることと$\ell^{\mathrm{sub}, \lambda} ( x, \theta , \phi ,s ) = 0$は同値である．
+**Proposition 2.1**
+Let $\lambda > 0 $ be a constant and let $x \in \mathcal{X}$. Then $x \in \mathrm{FOP}( \theta , \phi , s)$ if and only if $\ell^{\mathrm{sub}, \lambda} ( x, \theta , \phi ,s ) = 0$.
 </div>
 
-### 提案手法
+### Proposed method
 
-$\Theta = \Delta^{d-1}$とする．
-逆最適化問題を解くアルゴリズムとして，以下を提案する．
+Let $\Theta = \Delta^{d-1}$.
+We propose the following algorithm for solving the inverse optimization problem.
 
 <div class="algorithm-box" markdown="0">
-<div class="algorithm-caption"><b><a id="alg:2.1">アルゴリズム 2.1</a></b> Maximizing feasible set then minimizing suboptimality loss [アルゴリズム2, <a href="#K13">P13</a>]</div>
+<div class="algorithm-caption"><b><a id="alg:2.1">Algorithm 2.1</a></b> Maximizing feasible set then minimizing suboptimality loss [Algorithm 2, <a href="#K13">P13</a>]</div>
 <ol class="algorithmic">
-<li>$\varepsilon \geq 0$ をとる．</li>
+<li>Take $\varepsilon \geq 0$.</li>
 <li>$\phi^{\sup} := \min_{\phi \in \Phi} \{ \phi | h ( x^{*} (s) , s) \leq \phi \text{ for } s \in \mathcal{S}^\prime \}$</li>
-<li>$\mathbb{E}_{S} \ell^{\mathrm{sub}, 0} ( \hat{x}^{*} (S), \theta^{\sup} , \phi^{\sup} ,S ) \leq \varepsilon$ を満たす $\theta^{\sup} \in \Delta^{d-1}$ を計算する</li>
+<li>Compute $\theta^{\sup} \in \Delta^{d-1}$ satisfying $\mathbb{E}_{S} \ell^{\mathrm{sub}, 0} ( \hat{x}^{*} (S), \theta^{\sup} , \phi^{\sup} ,S ) \leq \varepsilon$</li>
 <li><b>return</b> $\theta^{\sup} \in \Delta^{d-1}, \phi^{\sup} \in \Phi$</li>
 </ol>
 </div>
 
-**注釈 2.2**: [アルゴリズム 2.1](#alg:2.1)の3行目を実装する方法として，[[P8](#K8),アルゴリズム 1]が挙げられる．
+**Remark 2.2**: [[P8](#K8), Algorithm 1] is one way to implement line 3 of [Algorithm 2.1](#alg:2.1).
 
-### (理論結果1) 模倣性に関する理論
+### (Theoretical result 1) Theory of imitation
 
-[アルゴリズム 2.1](#alg:2.1)によって，逆最適化(式(2.2))が解ける，つまり，以下の定理が成り立つ．
+[Algorithm 2.1](#alg:2.1) solves the inverse optimization problem (Eq. (2.2)); that is, the following theorem holds.
 
 <div class="theorem-box" markdown="1">
-**定理 2.3**
-写像$\hat{x} \colon \mathcal{S} \to \mathcal{X}$が最適解写像であるとは，ある$\theta^{\mathrm{true}} \in \Theta = \Delta^{d-1}$, $\phi^{\mathrm{true}} \in \Phi $が存在して，任意の$s \in \mathcal{S}$に対して$\hat{x} (s) = x^* (\theta^{\mathrm{true}} , \phi^{\mathrm{true}} , s)$となるものとする．$\varepsilon = 0 $とする．
-このとき，ほとんど至る$\theta^{\mathrm{true}} \in \Delta^{d-1}$に対して，[アルゴリズム 2.1](#alg:2.1)の3行目に[[P8](#K8),アルゴリズム 1]を組みこんだ[アルゴリズム 2.1](#alg:2.1)で出力された，$\theta^{\sup}, \phi^{\sup}$は$\hat{x}^{*} (s ) \in \mathbf{FOP} (\theta^{\sup}, \phi^{\sup}, s)$，つまり，式(2.2)を満たす．
+**Theorem 2.3**
+We say that a map $\hat{x} \colon \mathcal{S} \to \mathcal{X}$ is an optimal solution map if there exist $\theta^{\mathrm{true}} \in \Theta = \Delta^{d-1}$ and $\phi^{\mathrm{true}} \in \Phi $ such that $\hat{x} (s) = x^* (\theta^{\mathrm{true}} , \phi^{\mathrm{true}} , s)$ for any $s \in \mathcal{S}$. Let $\varepsilon = 0 $.
+Then, for almost every $\theta^{\mathrm{true}} \in \Delta^{d-1}$, the output $\theta^{\sup}, \phi^{\sup}$ of [Algorithm 2.1](#alg:2.1) with [[P8](#K8), Algorithm 1] incorporated into line 3 of [Algorithm 2.1](#alg:2.1) satisfies $\hat{x}^{*} (s ) \in \mathbf{FOP} (\theta^{\sup}, \phi^{\sup}, s)$, that is, Eq. (2.2).
 </div>
 
-# 参考文献
+# References
 
 [<a id="K5">P5</a>] Akira Kitaoka, Riki Eto, A proof of convergence of inverse reinforcement learning for multi-objective optimization, preprint.
 [[arXiv:2305.06137](https://arxiv.org/abs/2305.06137)]
@@ -383,6 +375,6 @@ $\Theta = \Delta^{d-1}$とする．
 [<a id="sakaue2025online">Sakaue et al. 2025</a>] S Sakaue, T Tsuchiya, H Bao, T Oki, Online Inverse Linear Optimization: Improved Regret Bound, Robustness to Suboptimality, and Toward Tight Regret Analysis, NeurIPS 2025, to appear.
 [[arXiv:2501.14349](https://arxiv.org/abs/2501.14349)]
 
-[<a id="suenaga2024kaigoshi">Suenaga et al. 2024</a>]末永 康貴, 永井 裕也, 柏木 一杜, 小野 智司, 介護士スケジューリングにおける制約条件の自動抽出の試み, 人工知能学会全国大会論文集, 2024, JSAI2024 巻, 第38回 (2024), セッションID 2M1-OS-11a-04, p. 2M1OS11a04.
+[<a id="suenaga2024kaigoshi">Suenaga et al. 2024</a>] Koki Suenaga, Yuya Nagai, Kazuto Kashiwagi, Satoshi Ono, An Attempt to Extract Constraints in Care Worker Scheduling Problems (Japanese), Proceedings of the Annual Conference of JSAI, JSAI2024, the 38th (2024), Session ID 2M1-OS-11a-04, p. 2M1OS11a04.
 
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>

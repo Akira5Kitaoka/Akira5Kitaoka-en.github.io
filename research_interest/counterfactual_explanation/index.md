@@ -1,28 +1,28 @@
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
-# 曲線のエネルギー最小化による経路に基づく反実仮想説明
+# Counterfactual explanation based on paths via curve energy minimization
 
-**キーワード**: 反実仮想説明，XAI(説明可能性AI)，機械学習，数値解析，微分幾何
+**Keywords**: Counterfactual explanation, XAI (explainable AI), machine learning, numerical analysis, differential geometry
 
-**背景**: 経路に基づく反実仮想説明は，訓練された分類器から望ましい予測結果を得るために，入力特徴量から経路を提案する説明手法である．この説明手法の需要は，ローン審査や健康診断といった領域で高まっている．
+**Background**: Path-based counterfactual explanation is an explanation method that proposes a path from the input features in order to obtain a desired prediction from a trained classifier. Demand for this kind of explanation is growing in domains such as loan screening and medical checkups.
 
-## 曲線のエネルギー最小化による経路に基づく反実仮想説明[[P11](#K11)] (with 岡嶋 穣，佐々木 耀一，高野 凜)
+## Counterfactual explanation based on paths via curve energy minimization [[P11](#K11)] (with Yuzuru Okajima, Yoichi Sasaki, Rin Takano)
 
-**従来課題**: 経路に基づく反実仮想説明において，提案される経路がジグザグになり解釈が難しいことや，スパース性の追加が困難であることが，課題として挙げられる．
+**Previous issues**: In path-based counterfactual explanation, the proposed paths tend to zigzag and are hard to interpret, and it is difficult to add sparsity.
 
-**解決手法**: [[P10](#K10)]を参考に，曲線のエネルギー最小化問題の解として経路を定義し，その最適化問題を有限差分法で近似し，非線形計画問題へ帰着させる手法を提案する．
+**Proposed method**: Following [[P10](#K10)], we define a path as a solution of the energy minimization problem of curves, approximate this optimization problem by the finite difference method, and reduce it to a nonlinear programming problem.
 
-**効果**: 実験で，滑らかな経路を取得できることと，スパース性を確認し，具体的には従来手法の必要な特徴量を73%に抑えられることを確認する．
+**Impact**: In experiments, we confirm that smooth paths can be obtained and that sparsity is achieved; specifically, the number of required features is reduced to 73% of that of the existing method.
 
 <!-- 
-<details><summary>詳細</summary>
+<details><summary>Details</summary>
 
-工事中
+Under construction
 </details>
 -->
 
-## 参考文献
+## References
 
-[<a id="K11">P11</a>] 北岡 旦, 岡嶋 穣，佐々木 耀一，高野 凜，曲線のエネルギー最小化による経路に基づく反実仮想説明 (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), 1Win4-97, 2025年5月27日. \[[論文](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win497/_article/-char/ja/)\] \[[正誤表](../../papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)\]
+[<a id="K11">P11</a>] Akira Kitaoka, Yuzuru Okajima, Yoichi Sasaki, Rin Takano, Counterfactual Explanation Based on Paths via Curve Energy Minimization (Japanese), [JSAI2025](https://confit.atlas.jp/guide/event/jsai2025/subject/1Win4-97/advanced), 1Win4-97, May 27, 2025. \[[Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1Win497/_article/-char/ja/)\] \[[Errata & Comment](https://akira5kitaoka.github.io/papers/JSAI2025_energy_minimization_CE/JSAI_energy_minimization_CE_errata.pdf)\]
 
-<a href="{{ '/research_interest' | relative_url }}">研究紹介に戻る>></a>
+<a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
