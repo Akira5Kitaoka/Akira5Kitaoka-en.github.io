@@ -41,7 +41,7 @@ Akira KITAOKA<br>
 
 # News
 
-- (**October 28, 2026**) I will participate in [IBIS2026](https://ibisml.org/ibis2026/posters/) and present the following:
+- (**October 16, 2026**) I will participate in [IBIS2026](https://ibisml.org/ibis2026/posters/) and present the following:
 
 [T19] Akira Kitaoka, Outperformance Inverse Optimization: Learning Objective Functions that Outperform Agent Decisions (Japanese), [IBIS2026](https://ibisml.org/ibis2026/posters/), 2-050, October 28, 2026.
 
