@@ -1,5 +1,7 @@
 <a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
+Last updated: October 17, 2026
+
 # Algorithm of approximating minimal geodesics
 
 **Keywords**: Numerical analysis, geodesics, mathematical optimization, optimal control

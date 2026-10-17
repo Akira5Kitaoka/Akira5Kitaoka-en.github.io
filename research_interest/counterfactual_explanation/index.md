@@ -1,5 +1,7 @@
 <a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
+Last updated: October 17, 2026
+
 # Counterfactual explanation based on paths via curve energy minimization
 
 **Keywords**: Counterfactual explanation, XAI (explainable AI), machine learning, numerical analysis, differential geometry

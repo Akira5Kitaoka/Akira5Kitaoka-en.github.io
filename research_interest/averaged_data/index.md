@@ -1,5 +1,7 @@
 <a href="{{ '/research_interest' | relative_url }}">Back to Research Interest>></a>
 
+Last updated: October 17, 2026
+
 # Learning from averaged data
 
 **Background**: Data aggregation techniques, including data averaging, are useful for data summarization, compression, reducing annotation costs, improving data quality, and protecting privacy [[Zhang+ 2020](#Zhang2020)]. In particular, averaging over multiple samples is effective for privacy protection because it makes it difficult to fully recover the original data before averaging.
