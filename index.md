@@ -9,8 +9,8 @@
 <b>Affiliation</b>: Researcher, NEC Corporation<br>
 <b>E-mail</b>: akira5kitaoka(^^)gmail.com 
 (Please replace (^^) with "at-mark")<br>
-<b>Research interest 1 (computer science & mathematics)</b>: inverse optimization, mathematical optimization, machine learning, mathematics<br>    
-We aim to learn objective functions and constraints of MILP such that the given data is the optimal solution.<br>
+<b>Research interest 1 (computer science & mathematics)</b>: outperformance inverse optimization, inverse optimization, mathematical optimization, machine learning<br>    
+I am researching methods that learn the weights of an objective function whose optimal solutions outperform the observed actions of an agent in every component, rather than reproducing those actions.<br>
 <b>Research interest 2 (computer science & mathematics)</b>: counterfactual explanation, XAI (eXplainable AI), machine learning, numerical analysis, differential geometry<br>
 I am researching counterfactual explanations, i.e., AIs that explain “how to modify the current input to obtain the desired output”.<br>
 </div>
